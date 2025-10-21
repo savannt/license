@@ -4,7 +4,7 @@ A simple utility to generate a stable machine identifier for license key generat
 ## Usage
 
 ```bash
-curl -s https://raw.githubusercontent.com/thing-king/license/main/profiler.nim -o /tmp/profiler.nim && nim c -r --hints:off /tmp/profiler.nim && rm /tmp/profiler.nim /tmp/profiler
+curl -s https://raw.githubusercontent.com/savannt/license/refs/heads/main/profiler.nim -o /tmp/profiler.nim && nim c -r --hints:off /tmp/profiler.nim && rm /tmp/profiler.nim /tmp/profiler
 ```
 
 The tool will output your machine ID:
